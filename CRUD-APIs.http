@@ -1,0 +1,69 @@
+@BaseURL = https://localhost:7443
+
+### Get all products
+GET {{BaseURL}}/api/products
+Accept: application/json
+
+###
+
+### Get product by ID
+GET {{BaseURL}}/api/products/1
+Accept: application/json
+
+###
+
+### Create a new product
+POST {{BaseURL}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "description": "Good laptop",
+  "price": 40000,
+  "stock": 10
+}
+
+###
+
+### Create a new product
+POST {{BaseURL}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Keyboard",
+  "description": "Good Keyboard",
+  "price": 5000,
+  "stock": 13
+}
+###
+
+### Create another product
+POST {{BaseURL}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Mouse",
+  "description": "gaming mouse",
+  "price": 55.99,
+  "stock": 50
+}
+
+###
+
+### Update a product
+PUT {{BaseURL}}/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Gaming Laptop",
+  "description": "Good laptop",
+  "price": 40000,
+  "stock": 10
+}
+
+###
+
+### Delete a product
+DELETE {{BaseURL}}/api/products/1
+
+###
