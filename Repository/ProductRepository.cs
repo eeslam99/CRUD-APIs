@@ -41,6 +41,7 @@ public class ProductRepository : IProductRepository
         existingProduct.Description = product.Description;
         existingProduct.Price = product.Price;
         existingProduct.Stock = product.Stock;
+        existingProduct.CountryOfOrigin = product.CountryOfOrigin;
         existingProduct.UpdatedAt = DateTime.UtcNow;
 
         await _context.SaveChangesAsync();
