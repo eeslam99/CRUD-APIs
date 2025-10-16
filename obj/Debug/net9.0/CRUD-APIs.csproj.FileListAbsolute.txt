@@ -154,3 +154,4 @@ C:\Users\eslam.e.mohamed\Desktop\Project\CRUD-APIs\bin\Debug\net9.0\CRUD-APIs.ru
 C:\Users\eslam.e.mohamed\Desktop\Project\CRUD-APIs\bin\Debug\net9.0\CRUD-APIs.pdb
 C:\Users\eslam.e.mohamed\Desktop\Project\CRUD-APIs\obj\Debug\net9.0\CRUD-APIs.genruntimeconfig.cache
 C:\Users\eslam.e.mohamed\Desktop\Project\CRUD-APIs\obj\Debug\net9.0\ref\CRUD-APIs.dll
+C:\Users\eslam.e.mohamed\Desktop\Project\CRUD-APIs\obj\Debug\net9.0\CRUD-APIs.sourcelink.json

@@ -22,6 +22,8 @@ public class ApplicationDbContext : DbContext
             entity.Property(e => e.Name).IsRequired().HasMaxLength(200);
             entity.Property(e => e.Description).HasMaxLength(1000);
             entity.Property(e => e.Price).HasColumnType("decimal(18,2)");
+            entity.Property(e => e.Stock).IsRequired();
+            entity.Property(e => e.CountryOfOrigin).HasMaxLength(20);
         });
     }
 }
